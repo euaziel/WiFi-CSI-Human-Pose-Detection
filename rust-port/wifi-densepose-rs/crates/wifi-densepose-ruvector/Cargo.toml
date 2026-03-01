@@ -1,0 +1,19 @@
+[package]
+name = "wifi-densepose-ruvector"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "RuVector v2.0.4 integration layer — ADR-017 signal processing and MAT ruvector integrations"
+repository.workspace = true
+keywords = ["wifi", "csi", "ruvector", "signal-processing", "disaster-detection"]
+categories = ["science", "computer-vision"]
+readme = "README.md"
+
+[dependencies]
+ruvector-mincut = { workspace = true }
+ruvector-attn-mincut = { workspace = true }
+ruvector-temporal-tensor = { workspace = true }
+ruvector-solver = { workspace = true }
+ruvector-attention = { workspace = true }
+thiserror = { workspace = true }

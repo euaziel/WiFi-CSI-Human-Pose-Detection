@@ -1,4 +1,4 @@
-# WiFi DensePose
+# WiFi CSI Human Pose Detection
 
 **See through walls with WiFi.** No cameras. No wearables. Just radio waves.
 
